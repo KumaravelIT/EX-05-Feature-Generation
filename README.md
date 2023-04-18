@@ -149,14 +149,14 @@ df.head(10)
 
 # OUTPUT
 
-#Data.csv
+# Data.csv
 
-#Encoding.csv
+# Encoding.csv
 
-#Titanic.csv
+# Titanic.csv
 
 
-#Result
+# Result
 
 Thus the program for Feature Generation is executed successfully.
 
