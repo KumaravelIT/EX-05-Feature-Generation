@@ -151,6 +151,17 @@ df.head(10)
 
 # Data.csv
 
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/001.jpg)
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/002.jpg)
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/003.jpg)
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/005.jpg)
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/004.jpg)
 # Encoding.csv
 
 # Titanic.csv
