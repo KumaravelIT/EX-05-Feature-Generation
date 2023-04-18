@@ -157,14 +157,75 @@ df.head(10)
 
 ![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/002.jpg)
 
+
+
 ![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/003.jpg)
+
+
 
 ![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/005.jpg)
 
-![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/004.jpg)
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/004.jpg) 
+
+
+
+
 # Encoding.csv
 
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/006.jpg)
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/007.jpg)
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/008.jpg)
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/009.jpg)
+
+
+
 # Titanic.csv
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/0099.jpg)
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/00999.jpg)
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/009999.jpg)
+
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/0099999.jpg)
+
+
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/00999999.jpg)
+
+
+
+
+![](https://github.com/KumaravelIT/EX-05-Feature-Generation/blob/main/009999999.jpg)
+
 
 
 # Result
