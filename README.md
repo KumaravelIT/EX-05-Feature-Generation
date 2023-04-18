@@ -89,37 +89,65 @@ en = en.fit_transform(data[['nom_0']]).toarray()
 
 encoded_colm = pd.DataFrame(en)
 
-data= pd.concat([data, encoded_colm], axis=1)
+data= pd.concat([data, encoded_colm], axis=1) 
+
 data= data.drop(['nom_0'], axis=1)
+
 data.head(10)
+
 data = pd.get_dummies(df, prefix=['bin_2'], columns=['bin_2'])
+
 data.head(10)
+
 #Titanic.csv
+
 import pandas as pd
+
 import seaborn as sbn
+
 dt=pd.read_csv("/content/titanic_dataset.csv")
+
 dt.info()
+
 dt.isnull().sum()
+
 dt['Age']=dt['Age'] . fillna(dt ['Age'].mean())
+
 dt ['Cabin']=dt['Cabin']. fillna(dt['Cabin']. mode() [0])
+
 dt ['Embarked']=dt['Embarked'] . fillna(df ['Embarked'].mode( )[0])
+
 dt.isnull().sum( ) from sklearn.preprocessing import LabelEncoder
+
 lc = LabelEncoder()
+
 df['Sex'] = lc.fit_transform(df['Sex'])
+
 sbn.set(style ="darkgrid")
+
 sbn.countplot(df['Sex']) from sklearn.preprocessing import OneHotEncoder
+
 enc= OneHotEncoder()
+
 enc= enc.fit_transform(dt[['Name']]).toarray()
+
 encoded_colm = pd.DataFrame(enc)
+
 dt= pd.concat([dt, encoded_colm], axis=1)
+
 dt= dt.drop(['Name'], axis=1)
+
 dt.head(10)
+
 dt = pd.get_dummies(dt, prefix=['Ticket'] ,columns=['Ticket'])
-df.head(10)
-dt = pd.get_dummies(dt, prefix=['Embarked'] ,columns=['Embarked'])
+
 df.head(10)
 
-# OUPUT
+dt = pd.get_dummies(dt, prefix=['Embarked'] ,columns=['Embarked'])
+
+df.head(10)
+
+# OUTPUT
 
 #Data.csv
 
