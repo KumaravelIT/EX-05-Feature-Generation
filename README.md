@@ -22,39 +22,73 @@ Save the data to the file
 # CODE
 
 #Data.csv
+
 import pandas as pd
+
 import seaborn as sbn
+
 df=pd.read_csv("/content/data.csv")
+
 df.info()
+
 df.isnull().sum()
+
 from sklearn.preprocessing import LabelEncoder
+
 le = LabelEncoder()
+
 df['Ord_2'] = le.fit_transform(df['Ord_2'])
+
 sbn.set(style ="darkgrid")
+
 sbn.countplot(df['Ord_2'])
+
 from sklearn.preprocessing import OneHotEncoder
+
 enc = OneHotEncoder()
+
 enc = enc.fit_transform(df[['City']]).toarray()
+
 encoded_colm = pd.DataFrame(enc)
+
 df = pd.concat([df, encoded_colm], axis=1)
+
 df = df.drop(['City'], axis=1)
+
 df.head(10)
+
 df = pd.get_dummies(df, prefix=['Ord_2'], columns=['Ord_2'])
+
 df.head(10)
+
 df = pd.get_dummies(df, prefix=['Ord_1'], columns=['Ord_1'])
+
 df.head(10)
+
 #Encoding.csv
+
 import pandas as pd
+
 import seaborn as sbn
+
 data=pd.read_csv("/content/Encoding Data.csv")
+
 data.info()
+
 data.isnull().sum() from sklearn.preprocessing import LabelEncoder
+
 le = LabelEncoder() data['ord_2'] = le.fit_transform(data['ord_2'])
+
 sbn.set(style ="darkgrid")
+
 sbn.countplot(data['ord_2']) from sklearn.preprocessing import OneHotEncoder
+
 en = OneHotEncoder()
+
 en = en.fit_transform(data[['nom_0']]).toarray()
+
 encoded_colm = pd.DataFrame(en)
+
 data= pd.concat([data, encoded_colm], axis=1)
 data= data.drop(['nom_0'], axis=1)
 data.head(10)
@@ -95,4 +129,5 @@ df.head(10)
 
 
 #Result
+
 Thus the program for Feature Generation is executed successfully.
