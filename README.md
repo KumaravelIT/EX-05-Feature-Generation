@@ -1,4 +1,10 @@
 # EX-05-Feature-Generation
+# DATE:
+ 
+ GITHUB:https://github.com/KumaravelIT/EX-05-Feature-Generation.git
+ 
+ 
+ COLAB:https://colab.research.google.com/drive/1jBZFmnie80cjKFdR4HzQt2i6gzeNvOvo?usp=sharing
 
 
 ## AIM
